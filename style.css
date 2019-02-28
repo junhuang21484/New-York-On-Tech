@@ -1,0 +1,28 @@
+body {
+    background-color: #0000FF;
+}
+
+nav {
+    text-transform: uppercase;
+    font-family: PT sans narrow;
+}
+
+.nav-link {
+    font-weight: bold
+}
+
+/* change color and italic when hover over it*/
+
+.nav-link:hover {
+    font-style: italic;
+    background-color: red;
+}
+
+header {
+    height: 600px;
+    width: 100%;
+    background-image: url("sky.jpg"); 
+}
+header p{
+    font-style: italic;
+}
