@@ -1,5 +1,5 @@
 body {
-    background-color: #0000FF;
+    background-color: White;
 }
 
 nav {
@@ -19,10 +19,34 @@ nav {
 }
 
 header {
-    height: 600px;
+    height: 700px;
     width: 100%;
-    background-image: url("sky.jpg"); 
+    background-image: url("sky.jpeg"); 
+    background-size: cover; 
+    text-align: center;
 }
 header p{
     font-style: italic;
+}
+
+.services {
+    text-align: center
+}
+
+.services i{
+    font-size: 30px;
+    padding: 15px 15px;
+   
+    color: blue;
+    background-color: orange;
+    
+    width: 60px;
+    height: 60px;
+    
+    border-radius: 35%
+}
+
+.services spam{
+    width: 200;
+    display: inline-block
 }
